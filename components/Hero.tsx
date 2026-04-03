@@ -98,17 +98,6 @@ export default function Hero() {
                   className="w-full h-auto object-cover"
                   priority
                 />
-                {/* Overlay gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A2E]/60 to-transparent" />
-
-                {/* Badge on image */}
-                <div className="absolute bottom-6 left-6 right-6">
-                  <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/20">
-                    <p className="text-white font-semibold text-sm">
-                      🏥 Serving Harare · Bulawayo · Kadoma
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
