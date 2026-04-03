@@ -32,10 +32,10 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between min-h-[88px] py-3 sm:min-h-[104px] sm:py-4 lg:min-h-[120px]">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <div className="relative w-40 h-12">
+            <div className="relative w-52 h-16 sm:w-64 sm:h-20 lg:w-80 lg:h-24">
               <Image
                 src="/logo.jpg"
                 alt="GenFin Medical Aid Fund"
